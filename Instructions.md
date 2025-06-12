@@ -4,14 +4,9 @@
 
 - Connect one side of thermistor to **3.3V**
 - Other side to a voltage divider node (10k resistor to GND)
-- Tap the center to **ADCINA0** (pin J3.30 on LaunchPad)
+- Tap the center to **ADCINA3** (pin J3.26 on LaunchPad)
 ![image](https://github.com/user-attachments/assets/bc13a75e-c7cb-4daa-9791-3309cd4b1558)
 
-### SCI Communication
-
-- SCITXDA: GPIO43 (J1.9)
-- SCIRXDA: GPIO42 (J1.10)
-- Connect TX to RX of USB-UART module and vice versa
 
 # Build Instructions for TMS320F28379D Thermistor Project
 
